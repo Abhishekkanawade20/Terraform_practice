@@ -1,15 +1,15 @@
 provider "aws" {
-    region = "ap-south-1"
+     region = "ap-south-1"
   
-}
+ }
 
-resource "aws_vpc" "terraform_vpc" {
+ resource "aws_vpc" "terraform_vpc" {
 
-  cidr_block       = "10.0.0.0/16"
-  instance_tenancy = "default"
+   cidr_block       = "10.0.0.0/16"
+   instance_tenancy = "default"
 
-  tags = {
-    Name = "main"
-  }
+   tags = {
+     Name = "main"
+   }
   
-}
+ }
