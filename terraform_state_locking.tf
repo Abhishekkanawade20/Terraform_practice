@@ -28,11 +28,10 @@ variable "tags" {
 }
 
 terraform {
-  backend "s3" {
-    bucket = "abhishkedell"
-    key = "terraform.tfstate"
-    region = "ap-south-1"  
-    dynamodb_table = "mytable"	  
-  }
+    backend "s3" {
+        bucket = "abhishkedell"
+        key    = "terraform.tfstate"
+        region     = "ap-south-1"
+   dynamodb_table  = "dynamodb-state-locking"
+    }
 }
-
