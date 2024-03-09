@@ -32,7 +32,7 @@ terraform {
     bucket = "abhishkedell"
     key = "terraform.tfstate"
     region = "ap-south-1"  
-    dynamodynamodb_table = "mytable"	  
+    dynamodb_table = "mytable"	  
   }
 }
 
