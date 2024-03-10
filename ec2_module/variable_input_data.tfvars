@@ -10,7 +10,4 @@ tags = {
     
 }
 
-access_key = "AKIAQL6QWTCDR7VZWBXO"
-
-secret_key = "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"
 

@@ -1,8 +1,6 @@
 #Defining provider, terraform backed, state locking and terraform resource in main file. 
 provider "aws" {
     region = var.region
-    access_key = var.access_key
-    secret_key = var.secret_key
 }
 
 terraform {
