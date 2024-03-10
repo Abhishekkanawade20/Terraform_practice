@@ -25,12 +25,3 @@ variable "ami" {
     description = "Defined ami type"
   
 }
-
-variable "access_key" {
-    type = string   
-}
-
-variable "secret_key" {
-    type = string
-  
-}
