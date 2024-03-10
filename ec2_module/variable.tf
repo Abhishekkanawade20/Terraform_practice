@@ -27,10 +27,10 @@ variable "ami" {
 }
 
 variable "access_key" {
-    default = number  
+    type = string   
 }
 
 variable "secret_key" {
-    default = number
+    type = string
   
 }
