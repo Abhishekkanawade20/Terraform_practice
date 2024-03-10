@@ -21,7 +21,7 @@ variable "tags" {
 }
 
 variable "ami" {
-    type = number
+    type = string
     description = "Defined ami type"
   
 }
