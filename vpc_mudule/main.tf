@@ -9,7 +9,7 @@ terraform {
     bucket = "terraformbucket-22"
     key = "terraform.tfstate"
     region = "ap-south-1"  
-    dynamodynamodb_table = "mytable"	  
+    dynamodb_table = "mytable"	  
   }
 }
 
