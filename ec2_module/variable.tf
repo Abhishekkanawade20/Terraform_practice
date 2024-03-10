@@ -2,7 +2,7 @@
 
 variable "region" {                                # defined variable type and description here
     type = string
-    description = "regio type"  
+    description = "region type"  
 }
 
 variable "ami" {
