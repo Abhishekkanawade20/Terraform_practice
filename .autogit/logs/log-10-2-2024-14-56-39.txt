@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+Sun Mar 10 2024 14:56:39 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* ec2_module/variable.tf
+* terraform
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
