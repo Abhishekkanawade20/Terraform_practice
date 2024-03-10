@@ -1,5 +1,5 @@
-output " {
+output "print the msg" {
 
-    value = 
+    value = "print simple msg"
   
 }
