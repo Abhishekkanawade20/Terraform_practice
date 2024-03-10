@@ -2,17 +2,17 @@
 
 variable "region" {                                # defined variable type and description here
     type = string
-    description = "defined the type region"  
+    description = "regio type"  
 }
 
 variable "ami" {
     type = string
-    description = "Defined ami type"
+    description = "ami type"
   
 }
 
 variable "instance_type" {
     type = string
-    description = "Defined the type of instance type"  
+    description = "instance type"  
 }
 
