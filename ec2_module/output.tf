@@ -1,6 +1,6 @@
-output "print" {
-  value = "print msg"
-}
+# output "print" {
+#   value = "print msg"
+# }
 
 
 
