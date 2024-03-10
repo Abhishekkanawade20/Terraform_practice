@@ -1,8 +1,12 @@
 #Defining provider, terraform backed, state locking and terraform resource in main file. 
-provider "aws" {
-    region = var.region
+terraform {
+    required_providers {
+        aws = {
+            source  = "hashicorp/aws"
+            version = "~> 4.0"
+        }
+    }
 }
-
 terraform {
   backend "s3" {
     bucket = "terraformbucket-21"
