@@ -14,8 +14,8 @@ terraform {
 }
 
 resource "aws_instance" "abhishek" {
-    ami = "var.ami"
-    instance_type = "var.instance_type"
-    key_name = "var.key_name"
-    tags = "var.tags" 
+    ami = var.ami
+    instance_type = var.instance_type
+    key_name = var.key_name
+    tags = var.tags 
 }
