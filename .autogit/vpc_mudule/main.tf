@@ -12,3 +12,9 @@ terraform {
     dynamodynamodb_table = "mytable"	  
   }
 }
+
+resource "aws_vpc" "myterraformvpc" {
+    cidr_block = var.cidr_block
+    instance_tenancy = var.instance_tenancy
+  
+}
