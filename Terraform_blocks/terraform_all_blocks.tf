@@ -64,3 +64,4 @@ data "vpc_security_group_ids" "Terraform-1" {
 output "vpc_security_group_ids" {
      value = data.vpc_security_group_ids.terraform.id
  }
+ 
