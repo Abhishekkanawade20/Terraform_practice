@@ -5,23 +5,14 @@ variable "region" {                                # defined variable type and d
     description = "defined the type region"  
 }
 
-variable "instance_type" {
-    type = string
-    description = "Defined the type of instance type"  
-}
-
-variable "key_name" {
-    type = string
-    description = "Defined the key name type"
-}
-
-variable "tags" {
-    type = map
-    description = "Defined the type of tags"  
-}
-
 variable "ami" {
     type = string
     description = "Defined ami type"
   
 }
+
+variable "instance_type" {
+    type = string
+    description = "Defined the type of instance type"  
+}
+
